@@ -16,3 +16,4 @@ validation_generator = val_datagen.flow_from_directory(
         batch_size=64,
         color_mode="grayscale",
         class_mode='categorical')
+emotion_model.save('model.h5')
